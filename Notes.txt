@@ -1,0 +1,52 @@
+TypeScript is the superset of JavaScript.
+Means there is lot more in TypeScript including JavaScript. It just allow you to write JAVASCRIPT in much precise manner
+
+All the things written in type is finally compiled into javascript
+
+TypeScript is all about typesafety, which is not provided by JavaScript
+
+What typeScript do ?
+The key idea behind typescript is static checking
+
+When the javascript run in the enviroment then only it throw the error while in TS there is a static checker which checks the
+code as you try to write it.
+
+In typescript you write lot more code compare to javascript
+
+TS -> JS
+
+TS is a developemnt tool, Your project still runs in javascript
+
+Types of TypeScript?
+Number String Boolean
+null undefined void
+Object Arrya Tuples ...
+any never unknown
+
+
+Here the typescript is smart enough the detect the data type of the variable.
+
+Any is basically used to turn off the type checking of a varibale(this is usually we ignore)
+noImplicitAny -> allow you to not fall in such things
+
+
+To setp a project in TypeScript
+tsc -> typescript compiler
+tsc --init
+it create a simple typescript config file, which gives you lots of options
+package.json is for to install any node package or any lib
+
+
+In the case of prodction you have two folders
+dist(distribution) and src
+src -> where you write your code
+dist -> is something which get on to the production which is being served to the end user. (here all .js file automatically will get created)
+
+tsc -w -> this tell to run it in the watch mode, which will look into tsconfig.json were the file is need to be created
+
+by default everything in ts is public
+
+null is treated as Object
+
+
+TS is just to write the production level code
